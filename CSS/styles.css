@@ -259,7 +259,7 @@
     position: relative;
     bottom: 324px;
 }
-.title_text_video_block {
+.title_text_video_block, .title_text_img_block_types_of_repair {
     font-family: 'YesevaOne-Regular';
     font-weight: 400;
     font-size: 20px;
@@ -272,7 +272,7 @@
 .img_camera {
     padding-bottom: 31px;
 }
-.camera_line, .camera_line_right {
+.camera_line, .camera_line_right, .weekdays_line, .weekdays_line_right {
     position: relative;
     bottom: 12px;
 }
@@ -288,12 +288,142 @@
 }
 .play_button {
     position: absolute;
-    left: 45%;
     right: 45%;
-    bottom: 146.5px;
+    bottom: 578px;
 }
 .video_back {
     width: 817px;
     height: 434px;
     background-color: rgba(0, 0, 0, 0.8)
+}
+.text_block2 {
+    width: 681px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.line {
+    padding-top: 63px;
+}
+.text_under_video {
+    font-family: 'NunitoSans-Regular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    color: #363636;
+    padding-top: 35px;
+    margin: 0px;
+
+}
+.form {
+    width: 769px;
+    text-align: center;
+    margin-top: 91px;
+    
+}
+.form1 {
+    display: flex;
+    justify-content: space-between;
+}
+.input_name, .input_phone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.label_form {
+    font-family: 'NunitoSans-Regular';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+    padding-bottom: 7px;
+    margin: 0px;
+}
+.input_text {
+    font-family: 'NunitoSans-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    color: #363636;
+    border-style: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    
+}
+.button_submit {
+    width: 200px;
+    height: 51px;
+    background-color: #E3B873;
+    box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 2px;
+    border-color: #E3B873;
+    color: #fff;
+    font-family: 'NunitoSans-Regular';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    cursor: pointer;
+}
+.checkbox_div {
+    margin-top: 35px;
+}
+.label_checkbox {
+    cursor: pointer;
+}
+.checkbox {
+    display: none;
+}
+.box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    background-color: #E3B873;
+    border-radius: 1px;
+    color: #fff;
+}
+.box::before {
+    content: "\2714";
+    opacity: 0;
+    transition: 0.2s;
+}
+.checkbox:checked + .box::before{
+    opacity: 1;
+}
+.title_of_third_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title_text_img_block_types_of_repair {
+    color: #181818;
+}
+.room1 {
+    width: 392px;
+    height: 608px;
+    background-image: url('../Image/wall.png');
+    background-repeat: no-repeat;
+}
+.title_and_ul {
+    position: relative;
+    top: 294px;
+    left: 31px;
+    width: 330px;
+    height: 314px;
+    background-color: #fff;
+
+}
+.room1_title {
+    margin: 0px;
+    padding-left: 34px;
+    padding-top: 25px;
+}
+.Redecorating {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 267px;
+    height: 178px;
+    padding-left: 17px;
+    color: #959595;
 }
