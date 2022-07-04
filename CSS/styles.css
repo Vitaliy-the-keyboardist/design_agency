@@ -390,6 +390,17 @@
 .checkbox:checked + .box::before{
     opacity: 1;
 }
+.text {
+    font-family: 'NunitoSans-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #181818;
+}
+.text_img_block_types_of_repair {
+    position: relative;
+    bottom: 150px;
+}
 .title_of_third_block {
     display: flex;
     flex-direction: column;
@@ -398,10 +409,32 @@
 .title_text_img_block_types_of_repair {
     color: #181818;
 }
+.block_of_three_rooms {
+    display: flex;
+    width: 1238px;
+    height: 608px;
+    justify-content: center;
+    margin: auto;
+    padding-top: 31px;
+}
 .room1 {
     width: 392px;
     height: 608px;
     background-image: url('../Image/wall.png');
+    background-repeat: no-repeat;
+    margin-right: 30px;
+}
+.room2 {
+    width: 392px;
+    height: 608px;
+    background-image: url('../Image/tv_and_light.png');
+    background-repeat: no-repeat;
+    margin-right: 30px;
+}
+.room3 {
+    width: 392px;
+    height: 608px;
+    background-image: url('../Image/light_and_tv_black.png');
     background-repeat: no-repeat;
 }
 .title_and_ul {
@@ -413,17 +446,319 @@
     background-color: #fff;
 
 }
-.room1_title {
+.room1_title, .room2_title, .room3_title {
     margin: 0px;
     padding-left: 34px;
     padding-top: 25px;
 }
-.Redecorating {
+.Redecorating, .Overhaul, .Designer_Repair {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 267px;
     height: 178px;
-    padding-left: 17px;
+    padding-left: 51px;
+    padding-top: 13px;
     color: #959595;
+    font-family: 'NunitoSans-Regular';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    margin: 0px;
+}
+.price {
+    display: flex;
+    width: 228px;
+    height: 54px;
+    background-color: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-family: 'YesevaOne-Regular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color:#fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.pork_vector {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #E3B873;
+}
+.sketh_and_form_block {
+    display: flex;
+    width: 1340px;
+    height: 725.44px;
+    position: relative;
+    
+    
+
+}
+.sketch_block {
+    width: 703px;
+    height: 645px;
+    background-image: url('../Image/sketch.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 253.81px;
+    margin-right: 131px;
+    
+}
+.sketch_block_list {
+    display: flex;
+    align-items: center;
+}
+.sketch_block_list:first-of-type {
+    padding-top: 117px;
+}
+.circle {
+    display: flex;
+    width: 88px;
+    height: 79px;
+    position: relative;
+    top: 5px;
+    background-image: url('../Image/Icons/cirkle.png');
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-family: 'YesevaOne-Regular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.sketch_block_list:last-of-type {
+    padding-bottom: 56px;
+}
+.form_block {
+    display: flex;
+    flex-direction: column;
+    width: 506px;
+    height: 509px;
+    background: #131313;
+    margin-top: 106px;
+}
+.title_form_block {
+    font-family: 'NunitoSans-Regular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    padding-top: 28px;
+    margin: 0px;
+}
+.form2 {
+    display: flex;
+    flex-direction: column;
+    width: 506px;
+    height: 509px;
+    padding-left: 49px;
+    
+}
+.input_name2, .input_phone2, .input_email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 408px;
+    height: 50px;
+}
+.input_name2 {
+    padding-top: 39px;
+    padding-bottom: 0px;
+}
+.input_phone2, .input_email {
+    padding-top: 48px;
+    padding-bottom: 0px;
+}
+.checkbox_div2 {
+    padding-top: 10px;
+    padding-bottom: 39px;
+}
+.label_form2 {
+    font-family: 'NunitoSans-Regular';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 3px;
+    margin: 0px;
+}
+.input_text2 {
+    font-family: 'NunitoSans-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    width: 408px;
+    color: #fff;
+    background: #131313;
+    border-style: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.text2 {
+    font-family: 'NunitoSans-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #fff;
+}
+.label_checkbox2 {
+    cursor: pointer;
+}
+.button_submit2 {
+    width: 213px;
+    height: 51px;
+    background-color: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 2px;
+    border-color: #E3B873;
+    color: #fff;
+    font-family: 'NunitoSans-Regular';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0px 49px 27px 195px;
+}
+.pork_vector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pork_message {
+    display: flex;
+    background: #fff;
+    margin-left: 32px;
+    margin-top: 38px;
+}
+.pork {
+    position: relative;
+    left: 10px;
+}
+.dollar {
+    position: relative;
+    right: 19px;
+}
+.eye {
+    position: relative;
+    right: 13px;
+    bottom: 2px;
+}
+.message {
+    display: flex;
+    align-items: center;
+    font-family: 'NunitoSans-Regular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    margin-left: 25px;
+}
+.fantasies_block {
+    width: 1440px;
+    position: relative;
+    top: 142px;
+}
+.fantasies_text_block {
+    width: 547px;
+}
+.back_img {
+    width: 1440px;
+    height: 864px;
+    background-image: url('../Image/back_img3.png');
+    margin-top: 112px;
+}
+.back_black2 {
+    display: flex;
+    width: 1440px;
+    height: 864px;
+    background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+.title_fant_block {
+    width: 411px;
+    padding-top: 137px;
+    padding-left: 99px;
+    padding-bottom: 47px;
+    margin: 0px;
+    margin-right: 77px;
+}
+.fantasies_ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.fantasies_ul_item {
+    height: 26px;
+    font-family: 'NunitoSans-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 99px;
+    margin-bottom: 23px;
+}
+.fantasies_ul_item:hover {
+    color: #E3B873;
+    /*border-bottom: 1px solid #E3B873;
+    height: 26.2px;*/
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.66px;
+}
+.fantasies_img_block1 {
+    width: 354px;
+    position: relative;
+    bottom: 41.2px;
+    margin-right: 43px;
+}
+.big_chess {
+    margin-bottom: 39px;
+}
+.fantasies_img_block2 {
+    position: relative;
+    bottom: 112.5px;
+    
+}
+.sofa {
+    margin-bottom: 37px;
+}
+.table {
+    margin-bottom: 39px;
+}
+.our_clients_block {
+    position: relative;
+    top: 200px;
+    width: 1236px;
+    height: 642px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.clients {
+    width: 1236px;
+    display: flex;
+    justify-content: space-between;
+}
+.client1, .client2, .client3 {
+    width: 376px;
+    height: 455px;
+    margin-right: 54px;
+    padding-top: 24px;
+    padding-left: 20px;
+    padding-right: 32px;
+}
+.client_face {
+    display: flex;
+    align-items: center;
+}
+.face {
+    border-radius: 50%;
 }
