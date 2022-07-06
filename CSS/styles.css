@@ -60,6 +60,7 @@
     color: #E3B873;
 }
 .request_call {
+    cursor: pointer;
     font-family: 'NunitoSans-Regular';
     font-style: italic;
     font-size: 11px;
@@ -104,6 +105,7 @@
     color: #fff;
 }
 .calculate {
+    cursor: pointer;
     width: 207px;
     height: 51px;
     background-color: #E3B873;
@@ -117,6 +119,7 @@
     text-transform: uppercase;
 }
 .submit {
+    cursor: pointer;
     width: 207px;
     height: 51px;
     margin-left: 20px;
@@ -768,11 +771,12 @@
 }
 .client1, .client2, .client3 {
     width: 376px;
-    height: 455px;
+    height: 407px;
     margin-right: 54px;
     padding-top: 24px;
     padding-left: 20px;
     padding-right: 32px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
 }
 .client_face {
     display: flex;
@@ -904,4 +908,105 @@
 }
 .submit3 {
     margin: auto;
+}
+.map_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    bottom: 221px;
+    width: 1440px;
+    height: 954px;
+    background-image: url('../Image/Map_back.png');
+    margin: auto;
+}
+.map_back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 954px;
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+}
+.map {
+    width: 925px;
+    height: 465px;
+    padding-top: 43px;
+
+}
+.title_contacts {
+    font-family: 'YesevaOne-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #E3B873;
+    padding-top: 274px;
+    padding-bottom: 26px;
+    margin: 0px;
+    text-align: center;
+}
+.footer {
+    display: flex;
+    position: relative;
+    bottom: 221px;
+    height: 133px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .header {
+        height: 57px;
+    }
+    .logo {
+        margin-left: 18px;
+    }
+    .navigation {
+        height: 57px;
+        justify-content: space-between;
+    }
+    .nav_list {
+        display: none;
+    }
+    .request_call {
+        display: none;
+    }
+    .phone_number {
+        margin-right: 18px;
+    }
+    .first_block {
+        height: 476px;
+    }
+    .back_black {
+        height: 476px;
+    }
+    .text_block {
+        padding: 85px 18px 16px;
+    }
+    .title_main {
+        font-size: 23px;
+        line-height: 30px;
+        margin-bottom: 0px;
+    }
+    .title_p {
+        font-size: 14px;
+        line-height: 19px;
+        height: 94px;
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+    .button_block {
+        display: flex;
+        flex-direction: column;
+    }
+    .calculate, .submit {
+        width: 338px;
+    }
+    .calculate {
+        margin-bottom: 26px;
+    }
+    .submit {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
 }
