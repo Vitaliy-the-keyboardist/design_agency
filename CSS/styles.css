@@ -118,7 +118,7 @@
     font-size: 11px;
     text-transform: uppercase;
 }
-.submit {
+.submit, .submit1 {
     cursor: pointer;
     width: 207px;
     height: 51px;
@@ -133,6 +133,9 @@
     color: #fff;
     background: none;
 }
+.submit1 {
+    display: none;
+}
 .text_img_block_back {
     height: 1074px;
     background: #131313;
@@ -143,6 +146,9 @@
     height: 553px;
     background: #131313;
     padding: 107px 134px 92px;
+}
+.mobile_complited_projects {
+    display: none;
 }
 .text_block1 {
     padding-right: 50px;
@@ -158,13 +164,16 @@
     padding-bottom: 34px;
     margin: 0px;
 }
-.text_block_inf_p {
+.text_block_inf_p, .text_block_inf_p_mobile {
     font-family: 'NunitoSans-Regular';
     font-weight: 400;
     font-size: 14px;
     line-height: 26px;
     color: #fff;
     margin: 0px;
+}
+.text_block_inf_p_mobile {
+    display: none;
 }
 .text_block_inf {
     font-family: 'NunitoSans-Regular';
@@ -312,7 +321,7 @@
 .line {
     padding-top: 63px;
 }
-.text_under_video {
+.text_under_video, .text_under_video_mobile {
     font-family: 'NunitoSans-Regular';
     font-weight: 400;
     font-size: 18px;
@@ -320,7 +329,9 @@
     color: #363636;
     padding-top: 35px;
     margin: 0px;
-
+}
+.text_under_video_mobile {
+    display: none;
 }
 .form {
     width: 769px;
@@ -999,14 +1010,138 @@
         display: flex;
         flex-direction: column;
     }
-    .calculate, .submit {
+    .calculate, .submit1 {
         width: 338px;
+    }
+    .submit {
+        display: none;
     }
     .calculate {
         margin-bottom: 26px;
     }
-    .submit {
+    .submit1 {
+        display: initial;
         margin-left: 0px;
         margin-top: 0px;
+        margin-bottom: 61px;
+    }
+    .stroke_block {
+        display: none;
+    }
+    .projects {
+        display: none;
+    }
+    .img_chairs {
+        display: none;
+    }
+    .mobile_complited_projects {
+        display: block;
+        width: 340px;
+        height: 241px;
+        margin-left: 18px;
+    }
+    .mobile_projects_img {
+        width: 340px;
+        height: 241px;
+        margin-left: 0px;
+    }
+    .text_img_block {
+        padding: 0px;
+    }
+    .title_h2 {
+        width: 253px;
+        height: 66px;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 36px;
+        margin-left: 61px;
+        padding: 0px;
+        
+    }
+    .option_title {
+        font-size: 14px;
+    }
+    .option_text {
+        font-size: 11px;
+    }
+    .text_block_inf_p {
+        display: none;
+    }
+    .text_block_inf_p_mobile {
+        display: block;
+        width: 311px;
+        height: 86px;
+        font-size: 11px;
+        margin-top: 22px;
+        margin-left: 32px;
+        text-align: center;
+    }
+    .text_block_options {
+        width: 341px;
+        height: 145px;
+        margin-top: 37px;
+        margin-left: 18px;
+        margin-bottom: 58px;
+    }
+    .left_stroke {
+        display: flex;
+        position: relative;
+        bottom: 144px;
+        left: 14px;
+    }
+    .vector_stroke_left {
+        position: relative;
+        right: 23px;
+    }
+    .right_stroke {
+        display: flex;
+        position: relative;
+        bottom: 177px;
+        left: 291px;
+    }
+    .vector_stroke_right {
+        position: relative;
+        right: 21px;
+    }
+    .text_img_block_back {
+        height: 733px;
+        background: #131313;
+        position: relative;
+    }
+    .text_video_block {
+        position: static;
+        background-color: #131313;
+    }
+    .img_video {
+        width: 340px;
+        height: 207px;
+    }
+    .video_back {
+        width: 340px;
+        height: 207px;
+    }
+    .text_block2 {
+       width: 340px;
+    }
+    .line {
+        padding-top: 28px;
+    }
+    .text_under_video {
+        display: none;
+    }
+    .text_under_video_mobile {
+        width: 340px;
+        height: 106px;
+        display: initial;
+        font-size: 11px;
+        line-height: 19px;
+        color: #fff;
+        padding-top: 21px;
+    }
+    .text_img_block_types_of_repair {
+        position: static;
+    }
+    .form1 {
+        flex-direction: column;
     }
 }
