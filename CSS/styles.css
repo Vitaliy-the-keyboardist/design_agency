@@ -514,7 +514,7 @@
     width: 1340px;
     height: 725.44px;
     position: relative;
-    
+    margin: auto;
     
 
 }
@@ -686,6 +686,13 @@
     width: 1440px;
     position: relative;
     top: 142px;
+    margin: auto;
+}
+.left_stroke2 {
+    display: none;
+}
+.right_stroke2 {
+    display: none;
 }
 .fantasies_text_block {
     width: 547px;
@@ -825,6 +832,7 @@
     top: 280px;
     height: 505px;
     display: flex;
+    margin: auto;
 }
 .back_city1 {
     width: 1127px;
@@ -960,6 +968,7 @@
 .header_footer {
     display: flex;
     align-items: center;
+    justify-content: center;
     position: relative;
     bottom: 221px;
     height: 133px;
@@ -1403,5 +1412,31 @@
     }
     .header_footer {
         display: none;
+        
+    }
+}
+
+@media screen and (min-width: 2500px) {
+    .first_block {
+        margin: auto;
+        background-image: url('../Image/back_img_big.png');
+    }
+    .text_block {
+        padding-left: 684px;
+    }
+    .text_img_block {
+        padding-left: 684px;
+    }
+    .sketh_and_form_block {
+        margin: auto;
+    }
+    .fantasies_block {
+        margin: auto;
+    }
+    .back_city1 {
+        margin-left: auto;
+    }
+    .back_city2 {
+        margin-right: auto;
     }
 }
