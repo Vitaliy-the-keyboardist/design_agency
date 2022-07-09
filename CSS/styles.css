@@ -459,8 +459,9 @@
     top: 294px;
     left: 31px;
     width: 330px;
-    height: 314px;
+    height: 286px;
     background-color: #fff;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 
 }
 .room1_title, .room2_title, .room3_title {
