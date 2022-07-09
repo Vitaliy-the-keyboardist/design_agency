@@ -957,12 +957,13 @@
     margin: 0px;
     text-align: center;
 }
-.footer {
+.header_footer {
     display: flex;
+    align-items: center;
     position: relative;
     bottom: 221px;
     height: 133px;
-    align-items: center;
+    
 }
 
 @media screen and (max-width: 1300px) {
@@ -989,6 +990,9 @@
         height: 476px;
     }
     .back_black {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         height: 476px;
     }
     .text_block {
@@ -1038,7 +1042,7 @@
         display: block;
         width: 340px;
         height: 241px;
-        margin-left: 18px;
+        margin-left: 0px;
     }
     .mobile_projects_img {
         width: 340px;
@@ -1048,13 +1052,19 @@
     .text_img_block {
         padding: 0px;
     }
+    .text_block1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0px;
+    }
     .title_h2 {
         width: 253px;
         height: 66px;
         font-size: 22px;
         text-align: center;
+        margin: auto;
         margin-top: 36px;
-        margin-left: 61px;
         padding: 0px;
         
     }
@@ -1073,15 +1083,15 @@
         height: 86px;
         font-size: 11px;
         margin-top: 22px;
-        margin-left: 32px;
+        
         text-align: center;
     }
     .text_block_options {
         width: 341px;
         height: 145px;
         margin-top: 37px;
-        margin-left: 18px;
         margin-bottom: 58px;
+        padding-right: 0px;
     }
     .left_stroke {
         display: flex;
@@ -1104,17 +1114,31 @@
         right: 21px;
     }
     .text_img_block_back {
-        height: 733px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 734px;
         background: #131313;
         position: relative;
     }
     .text_video_block {
+        height: 815px;
         position: static;
         background-color: #131313;
     }
+    .play_button {
+        position: relative;
+        width: 47px;
+        height: 47px;
+        bottom: 60%;
+        right: 0px;
+        left: 43%;
+    }
+    
     .img_video {
         width: 340px;
         height: 207px;
+        background-size: 340px 207px;
     }
     .video_back {
         width: 340px;
@@ -1140,8 +1164,244 @@
     }
     .text_img_block_types_of_repair {
         position: static;
+        display: flex;
+        flex-direction: column;
+    }
+    .form {
+        width: 340px;
+        height: 311px;
+        margin-top: 61px;
     }
     .form1 {
+        width: 340px;
+        height: 311px;
         flex-direction: column;
+    }
+    .input_name {
+        width: 340px;
+        height: 45px;
+        
+    }
+    .label_form {
+        padding: 0px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .input_text {
+        width: 340px;
+        color: #fff;
+        border-color: #fff;
+        background-color: #131313;
+    }
+    .input_phone {
+        margin-bottom: 106px;
+    }
+    .button_submit {
+        width: 340px;
+        height: 51px;
+    }
+    .text {
+        color: #fff;
+    }
+    .checkbox_div {
+        position: relative;
+        bottom: 185px;
+        right: 29px;
+    }
+    .title_text_img_block_types_of_repair {
+        margin-top: 83px;
+    }
+    .block_of_three_rooms {
+        flex-direction: column;
+        width: 340px;
+        height: auto;
+    }
+    .room1, .room2, .room3 {
+        width: 340px;
+        height: 484px;
+        background-size: 340px 365px;
+        margin-right: 0px;
+        margin-bottom: 79px;
+    }
+    .title_and_ul {
+        width: 270px;
+        height: 241px;
+        top: 223px;
+        left: 0px;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+    }
+    .room1_title, .room2_title, .room3_title {
+        font-size: 15px;
+    }
+    .Redecorating, .Overhaul, .Designer_Repair {
+        width: 198px;
+        height: 152px;
+        line-height: 22px;
+    }
+    .price {
+        width: 190px;
+        height: 40px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .sketh_and_form_block {
+        display: none;
+    }
+    .fantasies_block {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: static;
+    }
+    .back_img {
+        width: 340px;
+        height: 242px;
+        background-size: 340px 242px;
+        margin: 0px;
+        margin-top: 86px;
+        z-index: 1;
+    }
+    .left_stroke2 {
+        display: flex;
+        position: relative;
+        top: 40px;
+        left: 14px;
+    }
+    .vector_stroke_left2 {
+        position: relative;
+        right: 23px;
+    }
+    .right_stroke2 {
+        display: flex;
+        position: relative;
+        top: 5px;
+        left: 291px;
+    }
+    .vector_stroke_right2 {
+        position: relative;
+        right: 21px;
+    }
+    .back_black2 {
+        background: none;
+    }
+    .fantasies_ul {
+        display: none;
+    }
+    .fantasies_img_block1, .fantasies_img_block2 {
+        display: none;
+    }
+    .title_fant_block {
+        width: 340px;
+        height: 66px;
+        font-size: 22px;
+        padding: 0px;
+        margin: 0px;
+        position: relative;
+        bottom: 110px;
+    }
+    .our_clients_block {
+        display: none;
+    }
+    .back_city {
+        display: none;
+    }
+    .any_question_block {
+        width: auto;
+        height: 688px;
+        background-color: #131313;
+        bottom: 121px;
+        z-index: 0;
+    }
+    .title_any_question {
+        margin-top: 173px;
+    }
+    .form3 {
+        width: 340px;
+        height: 420px;
+    }
+    .input_name3 {
+        width: 340px;
+        height: 45px;
+        padding: 0px;
+        margin-top: 52px;
+        margin-bottom: 63px;
+    }
+    .label_form3 {
+        padding: 0px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .input_text3 {
+        width: 340px;
+        color: #fff;
+        border-color: #fff;
+        background-color: #131313;
+    }
+    .input_phone3 {
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 63px;
+    }
+    .input_question {
+        padding: 0px;
+    }
+    .checkbox_div3 {
+        margin: 0px;
+        margin-top: 23px;
+        margin-bottom: 67px;
+        padding: 0px;
+    }
+    .submit3 {
+        width: 340px;
+        height: 51px;
+    }
+    .text2 {
+        color: #fff;
+    }
+    .map_block {
+        height: auto;
+        position: relative;
+        bottom: 122px;
+        width: auto;
+        background-image: none;
+        background-color: #131313;
+    }
+    .map_back {
+        background-image: none;
+        background-color: #131313;
+        width: auto;
+        height: auto;
+    }
+    .map {
+        width: 340px;
+        height: 255px;
+        margin-bottom: 42px;
+        order: 0;
+    }
+    .title_contacts {
+        width: 340px;
+        font-size: 18px;
+        margin: 0px;
+        padding: 0px;
+        order: 1;
+    }
+    .br {
+        display: none;
+    }
+    .icons_block {
+        margin-top: 24px;
+        margin-bottom: 49px;
+        order: 1;
+    }
+    .map_img {
+        width: 340px;
+        height: 255px;
+    }
+    .letter, .photo {
+        width: 39px;
+        height: 39px;
+        margin-right: 20px;
+    }
+    .header_footer {
+        display: none;
     }
 }
