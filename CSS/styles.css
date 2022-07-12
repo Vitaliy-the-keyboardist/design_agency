@@ -8,6 +8,7 @@
 }
 .body {
     margin: 0px;
+    height: 7721px;
 }
 .header {
     /*max-width: 1440px;*/
@@ -79,10 +80,13 @@
     background-image: url('../Image/back_img1.jpg');
 }
 .back_black {
+    display: flex;
+    justify-content: center;
     height: 707px;
     background: rgba(0, 0, 0, 0.7);
 }
 .text_block {
+    width: 1171px;
     padding: 194px 134px;
 }
 .title_main {
@@ -137,6 +141,8 @@
     display: none;
 }
 .text_img_block_back {
+    display: flex;
+    justify-content: center;
     height: 1074px;
     background: #131313;
     position: relative;
@@ -302,9 +308,9 @@
     background-image: url('../Image/man_on_table.png');
 }
 .play_button {
-    position: absolute;
-    right: 45%;
-    bottom: 578px;
+    position: relative;
+    left: 41.4%;
+    bottom: 282px;
 }
 .video_back {
     width: 817px;
@@ -358,6 +364,7 @@
     margin: 0px;
 }
 .input_text {
+    width: 231px;
     font-family: 'NunitoSans-Regular';
     font-weight: 400;
     font-size: 14px;
@@ -510,14 +517,13 @@
     border-radius: 50%;
     background: #E3B873;
 }
-.sketh_and_form_block {
+.sketch_and_form_block {
     display: flex;
-    width: 1340px;
+    justify-content: center;
+    width: 100%;
     height: 725.44px;
     position: relative;
     margin: auto;
-    
-
 }
 .sketch_block {
     width: 703px;
@@ -564,6 +570,7 @@
     height: 509px;
     background: #131313;
     margin-top: 106px;
+    margin-right: 100px;
 }
 .title_form_block {
     font-family: 'NunitoSans-Regular';
@@ -684,7 +691,7 @@
     margin-left: 25px;
 }
 .fantasies_block {
-    width: 1440px;
+    width: 100%;
     position: relative;
     top: 142px;
     margin: auto;
@@ -696,24 +703,25 @@
     display: none;
 }
 .fantasies_text_block {
-    width: 547px;
+    width: auto;
+    margin-left: 99px;
 }
 .back_img {
-    width: 1440px;
+    width: 100%;
     height: 864px;
     background-image: url('../Image/back_img3.png');
     margin-top: 112px;
 }
 .back_black2 {
     display: flex;
-    width: 1440px;
+    justify-content: center;
+    width: 100%;
     height: 864px;
     background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
 }
 .title_fant_block {
     width: 411px;
     padding-top: 137px;
-    padding-left: 99px;
     padding-bottom: 47px;
     margin: 0px;
     margin-right: 77px;
@@ -729,7 +737,6 @@
     font-weight: 400;
     font-size: 20px;
     color: #fff;
-    margin-left: 99px;
     margin-bottom: 23px;
 }
 .fantasies_ul_item:hover {
@@ -750,9 +757,11 @@
     margin-bottom: 39px;
 }
 .fantasies_img_block2 {
+    display: flex;
+    flex-direction: column;
     position: relative;
     bottom: 112.5px;
-    
+    margin-right: 100px;
 }
 .sofa {
     margin-bottom: 37px;
@@ -836,13 +845,13 @@
     margin: auto;
 }
 .back_city1 {
-    width: 1127px;
+    width: 50%;
     height: 505px;
     background-image: url('../Image/frame1.png');
     opacity: 0.05;
 }
 .back_city2 {
-    width: 1127px;
+    width: 50%;
     height: 505px;
     background-image: url('../Image/frame2.png');
     opacity: 0.05;
@@ -935,16 +944,17 @@
     align-items: center;
     position:relative;
     bottom: 221px;
-    width: 1440px;
+    width: 100%;
     height: 954px;
     background-image: url('../Image/Map_back.png');
+    background-color: #181818;
     margin: auto;
 }
 .map_back {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1440px;
+    width: 100%;
     height: 954px;
     background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
 }
@@ -1006,7 +1016,8 @@
         height: 476px;
     }
     .text_block {
-        padding: 85px 18px 16px;
+        width: auto;
+        padding: 85px 0px 16px;
     }
     .title_main {
         font-size: 23px;
@@ -1104,7 +1115,7 @@
         padding-right: 0px;
     }
     .left_stroke {
-        display: flex;
+        display: inline-flex;
         position: relative;
         bottom: 144px;
         left: 14px;
@@ -1114,10 +1125,10 @@
         right: 23px;
     }
     .right_stroke {
-        display: flex;
+        display: inline-flex;
         position: relative;
-        bottom: 177px;
-        left: 291px;
+        bottom: 142px;
+        left: 245px;
     }
     .vector_stroke_right {
         position: relative;
@@ -1126,6 +1137,7 @@
     .text_img_block_back {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         align-items: center;
         height: 734px;
         background: #131313;
@@ -1144,7 +1156,9 @@
         right: 0px;
         left: 43%;
     }
-    
+    .img_block {
+        display: none;
+    }
     .img_video {
         width: 340px;
         height: 207px;
@@ -1253,7 +1267,7 @@
         font-size: 15px;
         margin-top: 15px;
     }
-    .sketh_and_form_block {
+    .sketch_and_form_block {
         display: none;
     }
     .fantasies_block {
@@ -1262,6 +1276,9 @@
         flex-direction: column;
         align-items: center;
         position: static;
+    }
+    .fantasies_text_block {
+        margin-left: 0px;
     }
     .back_img {
         width: 340px;
@@ -1272,20 +1289,20 @@
         z-index: 1;
     }
     .left_stroke2 {
-        display: flex;
+        display: inline-flex;
         position: relative;
-        top: 40px;
-        left: 14px;
+        top: 37px;
+        left: 10px;
     }
     .vector_stroke_left2 {
         position: relative;
         right: 23px;
     }
     .right_stroke2 {
-        display: flex;
+        display: inline-flex;
         position: relative;
-        top: 5px;
-        left: 291px;
+        top: 37px;
+        left: 242px;
     }
     .vector_stroke_right2 {
         position: relative;
@@ -1335,6 +1352,7 @@
         padding: 0px;
         margin-top: 52px;
         margin-bottom: 63px;
+        margin-right: 0px;
     }
     .label_form3 {
         padding: 0px;
@@ -1411,9 +1429,14 @@
         height: 39px;
         margin-right: 20px;
     }
+    .photo {
+        margin-right: 0px;
+    }
     .header_footer {
         display: none;
-        
+    }
+    .body {
+        height: 5384px;
     }
 }
 
@@ -1422,13 +1445,7 @@
         margin: auto;
         background-image: url('../Image/back_img_big.png');
     }
-    .text_block {
-        padding-left: 684px;
-    }
-    .text_img_block {
-        padding-left: 684px;
-    }
-    .sketh_and_form_block {
+    .sketch_and_form_block {
         margin: auto;
     }
     .fantasies_block {
