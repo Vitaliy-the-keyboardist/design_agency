@@ -230,12 +230,12 @@
     height: 26px;
     list-style: none;
 }
-.item1:hover {
+/*.item1:hover {
     height: 25px;
     margin: 0px;
     color: #E3B873;
     border-bottom: 1px solid #E3B873; 
-}
+}*/
 .link_projects {
     font-family: 'YesevaOne-Regular';
     font-weight: 400;
@@ -244,9 +244,11 @@
     text-transform: uppercase;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
 }
-.link_projects:hover {
+.active_link {
     color: #E3B873;
+    border-bottom: 1px solid #E3B873;
 }
 .img_block {
     width: 679px;
@@ -272,7 +274,7 @@
     position: relative;
     bottom: 12px;
 }
-.stroke {
+.stroke2 {
     right: 11px;
 }
 .stroke1 {
